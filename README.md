@@ -1,3 +1,3 @@
 # dbt_databricks
 
-![Lineage Diagram](lineage.jpg)
+![Lineage Diagram](lineage.png)

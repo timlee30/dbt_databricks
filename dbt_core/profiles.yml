@@ -1,0 +1,11 @@
+dbt_core:
+  outputs:
+    dev:
+      catalog: dbt_project_catalog
+      host: adb-505533959394416.16.azuredatabricks.net
+      http_path: /sql/1.0/warehouses/e44f5c2ffb2de3bd
+      schema: default
+      threads: 1
+      token: dapi8c15cb9dce86abd414521e0f950d887d-3
+      type: databricks
+  target: dev

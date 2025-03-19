@@ -1,0 +1,11 @@
+version: 2
+
+snapshots:
+ - name: products_snapshot
+   columns:
+    - name: id
+      tests: 
+       - unique:
+          config:
+           where: "dbt_valid_to is not null"  # only test active record
+           severity: warn

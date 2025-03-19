@@ -1,0 +1,6 @@
+version: 2
+models:
+  - name: gold_sales__daily
+    tests:
+      - dbt_expectations.expect_table_columns_to_match_set:
+          column_list: ["order_date", "product_name", "category", "vendor", "city", "state", "sales_channel", "total_revenue"]
